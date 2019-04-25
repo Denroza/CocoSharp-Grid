@@ -1,0 +1,13 @@
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\bin\Debug\netstandard2.0\TokBlitzBeta.deps.json
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\bin\Debug\netstandard2.0\TokBlitzBeta.dll
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\TokBlitzBeta.csprojAssemblyReference.cache
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\TokBlitzBeta.csproj.CoreCompileInputs.cache
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\TokBlitzBeta.AssemblyInfoInputs.cache
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\TokBlitzBeta.AssemblyInfo.cs
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\bin\Debug\netstandard2.0\TokBlitzBeta.pdb
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\TokBlitzBeta.dll
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\TokBlitzBeta.pdb
+C:\Users\Laptop1\Desktop\TokBlitzBetaCoco\TokBlitzBeta\TokBlitzBeta\TokBlitzBeta\obj\Debug\netstandard2.0\ViewModels\Pages\Main.xaml.g.cs

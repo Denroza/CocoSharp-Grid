@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TokBlitzBeta"
+             x:Class="TokBlitzBeta.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry x:Name="RowSet" Placeholder="Set Row Here"/>
+        <Entry x:Name="ColSet" Placeholder="Set Coloumn Here"/>
+        <!--<Button Text="Go to Main" Clicked="Button_Clicked"/>-->
+        <Button Text="Grid Sample" Clicked="Button_Clicked_1"/>
+    </StackLayout>
+
+</ContentPage>
