@@ -14,8 +14,9 @@ namespace TokBlitzBeta.ViewModels
         CCDrawNode AnswerBank = new CCDrawNode();
         CCDrawNode Menus = new CCDrawNode();
 
-        public static int RowSetter { get; set; } = 3;
-        public static int ColoumnSetter { get; set; } = 3;
+        public static int RowSetter { get; set; } 
+        public static int ColoumnSetter { get; set; } 
+        public static int WordLength { get; set; }
         public GridScene(CCGameView gameView) : base(gameView)
         {
             var layer = new CCLayerColor(CCColor4B.Transparent);
@@ -72,14 +73,15 @@ namespace TokBlitzBeta.ViewModels
             float BoxWidth = 8.5f, BoxHeight = 8.5f;
             // float ExtendY = 0, ExtendX = 0;
 
-            if (RowSetter > 5) {
+            if (RowSetter >=5 && RowSetter<=7) {
                 int heightControl = RowSetter - 5;
                 for (int i = 0; i < heightControl; i++) {
-                    HeightDividend += 1f;
-                 
-                    
+                    HeightDividend += 1.5f;
+
+                    if (RowSetter == 5)
                         AdjusterValueHeight -= .15f;
-                    
+                    else
+                        AdjusterValueHeight -= .0055f;
                
                 
                 }
@@ -99,11 +101,13 @@ namespace TokBlitzBeta.ViewModels
             }
          
             float _Width = fixedWidth / WidthDividend;
+            int numWordSet=0;
             for (int row = 0; row < RowSetter; row++)
             {
 
                 for (int col = 0; col < ColoumnSetter; col++)
                 {
+
                     box[row, col] = new CCSprite("Images/Sprites/wordframe.png");
                     texts[row, col] = new CCLabel("BOX" + (col + row), "arial", 22f);
                     box[row, col].ContentSize = new CCSize(fixedWidth / WidthDividend, fixedHeight / HeightDividend);
@@ -133,9 +137,13 @@ namespace TokBlitzBeta.ViewModels
 
 
                     }
+
                     texts[row, col].Position = new CCPoint(box[row, col].ContentSize.Width / 2, box[row, col].ContentSize.Height / 2);
+                    if (numWordSet < WordLength) { 
                     GameBoard.AddChild(box[row, col]);
                     box[row, col].AddChild(texts[row, col]);
+                    }
+                    numWordSet++;
 
                 }
 

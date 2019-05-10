@@ -7,9 +7,9 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Entry x:Name="RowSet" Placeholder="Set Row Here"/>
-        <Entry x:Name="ColSet" Placeholder="Set Coloumn Here"/>
-        <!--<Button Text="Go to Main" Clicked="Button_Clicked"/>-->
+        <Entry x:Name="RowSet" Placeholder="Word Lenght?"/>
+  
+        <Button Text="Go to Main" Clicked="Button_Clicked"/>
         <Button Text="Grid Sample" Clicked="Button_Clicked_1"/>
     </StackLayout>
 

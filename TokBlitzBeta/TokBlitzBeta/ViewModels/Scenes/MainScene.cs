@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using CocosSharp;
+using TokBlitzBeta;
 namespace TokBlitzBeta.ViewModels
 {
     public class MainScene : CCScene
@@ -14,9 +15,9 @@ namespace TokBlitzBeta.ViewModels
             this.AddLayer(layer);
             _background = new CCSprite("Images/Background/bg.png");
             _logo = new CCSprite("Images/Sprites/logo_tokblitz.png");
-            _logo.ContentSize = new CCSize((App.ScreenWidth/2) + 150,(App.ScreenHeight/2) -150);
+            _logo.setSizeLogoLarge();
             _logo.Position = new CCPoint(App.ScreenWidth / 2, App.ScreenHeight / 2);
-            _background.ContentSize = new CCSize(App.ScreenWidth,App.ScreenHeight);
+            _background.ContentSize = CustomSize.FullScreen;
             _background.Position = new CCPoint(App.ScreenWidth/2,App.ScreenHeight/2);
             layer.AddChild(_background);
             _background.AddChild(_logo);

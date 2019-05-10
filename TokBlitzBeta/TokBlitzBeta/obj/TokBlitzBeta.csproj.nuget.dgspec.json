@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laptop1\\Desktop\\TokBlitzBetaCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj": {}
+    "C:\\Users\\Laptop1\\Desktop\\tbCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laptop1\\Desktop\\TokBlitzBetaCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj": {
+    "C:\\Users\\Laptop1\\Desktop\\tbCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laptop1\\Desktop\\TokBlitzBetaCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj",
+        "projectUniqueName": "C:\\Users\\Laptop1\\Desktop\\tbCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj",
         "projectName": "TokBlitzBeta",
-        "projectPath": "C:\\Users\\Laptop1\\Desktop\\TokBlitzBetaCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj",
+        "projectPath": "C:\\Users\\Laptop1\\Desktop\\tbCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta.csproj",
         "packagesPath": "C:\\Users\\Laptop1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laptop1\\Desktop\\TokBlitzBetaCoco\\TokBlitzBeta\\TokBlitzBeta\\TokBlitzBeta\\obj\\",
+        "outputPath": "C:\\Users\\Laptop1\\Desktop\\tbCoco\\TokBlitzBeta\\TokBlitzBeta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
